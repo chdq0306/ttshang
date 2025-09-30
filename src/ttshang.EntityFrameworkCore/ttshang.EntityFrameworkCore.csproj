@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\ttshang.thingmodel\src\ttshang.thingmodel.EntityFrameworkCore\ttshang.thingmodel.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ttshang.Domain\ttshang.Domain.csproj" />
   </ItemGroup>
 

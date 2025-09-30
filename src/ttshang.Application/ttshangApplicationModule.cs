@@ -6,6 +6,7 @@ using Volo.Abp.AutoMapper;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Modularity;
 using Volo.Abp.TenantManagement;
+using ttshang.thingmodel;
 
 namespace ttshang;
 
@@ -17,7 +18,8 @@ namespace ttshang;
     typeof(AbpIdentityApplicationModule),
     typeof(AbpAccountApplicationModule),
     typeof(AbpTenantManagementApplicationModule),
-    typeof(AbpSettingManagementApplicationModule)
+    typeof(AbpSettingManagementApplicationModule),
+    typeof(thingmodelApplicationModule)
     )]
 public class ttshangApplicationModule : AbpModule
 {

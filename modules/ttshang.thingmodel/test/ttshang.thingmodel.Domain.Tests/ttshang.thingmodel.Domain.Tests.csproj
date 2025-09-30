@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ttshang.thingmodel</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ttshang.thingmodel.Domain\ttshang.thingmodel.Domain.csproj" />
+    <ProjectReference Include="..\ttshang.thingmodel.TestBase\ttshang.thingmodel.TestBase.csproj" />
+  </ItemGroup>
+
+
+</Project>

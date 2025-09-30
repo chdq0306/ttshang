@@ -23,6 +23,7 @@ using Volo.Abp.SettingManagement.Blazor.WebAssembly;
 using Volo.Abp.FeatureManagement.Blazor.WebAssembly;
 using Volo.Abp.TenantManagement.Blazor.WebAssembly;
 using Volo.Abp.Identity.Blazor.WebAssembly;
+using ttshang.thingmodel.Blazor.WebAssembly;
 
 namespace ttshang.Blazor.Client;
 
@@ -33,7 +34,8 @@ namespace ttshang.Blazor.Client;
     typeof(AbpIdentityBlazorWebAssemblyModule),
     typeof(AbpTenantManagementBlazorWebAssemblyModule),
     typeof(AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeModule),
-    typeof(ttshangHttpApiClientModule)
+    typeof(ttshangHttpApiClientModule),
+    typeof(thingmodelBlazorWebAssemblyModule)
 )]
 public class ttshangBlazorClientModule : AbpModule
 {

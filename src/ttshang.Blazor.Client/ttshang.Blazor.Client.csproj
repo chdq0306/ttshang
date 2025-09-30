@@ -34,6 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\ttshang.thingmodel\src\ttshang.thingmodel.Blazor.WebAssembly\ttshang.thingmodel.Blazor.WebAssembly.csproj" />
     <ProjectReference Include="..\..\src\ttshang.HttpApi.Client\ttshang.HttpApi.Client.csproj" />
   </ItemGroup>
   <ItemGroup>

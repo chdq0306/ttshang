@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\ttshang.thingmodel\src\ttshang.thingmodel.Application\ttshang.thingmodel.Application.csproj" />
     <ProjectReference Include="..\ttshang.Domain\ttshang.Domain.csproj" />
     <ProjectReference Include="..\ttshang.Application.Contracts\ttshang.Application.Contracts.csproj" />
   </ItemGroup>

@@ -1,0 +1,66 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ttshang.thingmodel.Domain": {
+      "path": "src/ttshang.thingmodel.Domain/ttshang.thingmodel.Domain.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.Application.Contracts": {
+      "path": "src/ttshang.thingmodel.Application.Contracts/ttshang.thingmodel.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.Application": {
+      "path": "src/ttshang.thingmodel.Application/ttshang.thingmodel.Application.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.EntityFrameworkCore": {
+      "path": "src/ttshang.thingmodel.EntityFrameworkCore/ttshang.thingmodel.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.HttpApi": {
+      "path": "src/ttshang.thingmodel.HttpApi/ttshang.thingmodel.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.HttpApi.Client": {
+      "path": "src/ttshang.thingmodel.HttpApi.Client/ttshang.thingmodel.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.Blazor": {
+      "path": "src/ttshang.thingmodel.Blazor/ttshang.thingmodel.Blazor.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.Blazor.WebAssembly": {
+      "path": "src/ttshang.thingmodel.Blazor.WebAssembly/ttshang.thingmodel.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.TestBase": {
+      "path": "test/ttshang.thingmodel.TestBase/ttshang.thingmodel.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ttshang.thingmodel.EntityFrameworkCore.Tests": {
+      "path": "test/ttshang.thingmodel.EntityFrameworkCore.Tests/ttshang.thingmodel.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ttshang.thingmodel.Domain.Tests": {
+      "path": "test/ttshang.thingmodel.Domain.Tests/ttshang.thingmodel.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ttshang.thingmodel.Application.Tests": {
+      "path": "test/ttshang.thingmodel.Application.Tests/ttshang.thingmodel.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ttshang.thingmodel.Domain.Shared": {
+      "path": "src/ttshang.thingmodel.Domain.Shared/ttshang.thingmodel.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ttshang.thingmodel.Installer": {
+       "path": "src/ttshang.thingmodel.Installer/ttshang.thingmodel.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

@@ -8,6 +8,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.Localization;
 using Volo.Abp.TenantManagement;
+using ttshang.thingmodel;
 
 namespace ttshang;
 
@@ -18,7 +19,8 @@ namespace ttshang;
     typeof(AbpAccountHttpApiModule),
     typeof(AbpIdentityHttpApiModule),
     typeof(AbpTenantManagementHttpApiModule),
-    typeof(AbpFeatureManagementHttpApiModule)
+    typeof(AbpFeatureManagementHttpApiModule),
+    typeof(thingmodelHttpApiModule)
     )]
 public class ttshangHttpApiModule : AbpModule
 {

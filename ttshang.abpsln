@@ -10,6 +10,9 @@
   "modules": {
     "ttshang": {
       "path": "ttshang.abpmdl"
+    },
+    "ttshang.thingmodel": {
+      "path": "modules/ttshang.thingmodel/ttshang.thingmodel.abpmdl"
     }
   },
   "runProfiles": {
@@ -19,9 +22,7 @@
   },
   "options": {
     "httpRequests": {
-      "ignoredUrls": [
-      
-      ]
+      "ignoredUrls": []
     }
   },
   "creatingStudioConfiguration": {
@@ -45,12 +46,32 @@
     "theme": "leptonx-lite",
     "themeStyle": "",
     "themeMenuPlacement": "",
-    "mobileFramework": "none",
     "progressiveWebApp": "true",
     "runProgressiveWebAppSupport": "true",
     "publicWebsite": "false",
     "socialLogin": "true",
-    "selectedLanguages": ["Arabic", "Chinese (Simplified)", "Chinese (Traditional)", "Czech", "English", "English (United Kingdom)", "Finnish", "French", "German (Germany)", "Hindi ", "Hungarian", "Icelandic", "Italian", "Portuguese (Brazil)", "Romanian (Romania)", "Russian", "Slovak", "Spanish", "Swedish", "Turkish", ],
+    "selectedLanguages": [
+      "Arabic",
+      "Chinese (Simplified)",
+      "Chinese (Traditional)",
+      "Czech",
+      "English",
+      "English (United Kingdom)",
+      "Finnish",
+      "French",
+      "German (Germany)",
+      "Hindi ",
+      "Hungarian",
+      "Icelandic",
+      "Italian",
+      "Portuguese (Brazil)",
+      "Romanian (Romania)",
+      "Russian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Turkish"
+    ],
     "defaultLanguage": "Arabic",
     "createCommand": "abp new ttshang -t app --ui-framework blazor --database-provider ef --database-management-system postgresql --theme leptonx-lite --without-cms-kit -no-file-management"
   }

@@ -14,6 +14,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.BlobStoring.Database.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Volo.Abp.Studio;
+using ttshang.thingmodel.EntityFrameworkCore;
 
 namespace ttshang.EntityFrameworkCore;
 
@@ -28,7 +29,8 @@ namespace ttshang.EntityFrameworkCore;
     typeof(AbpIdentityEntityFrameworkCoreModule),
     typeof(AbpOpenIddictEntityFrameworkCoreModule),
     typeof(AbpTenantManagementEntityFrameworkCoreModule),
-    typeof(BlobStoringDatabaseEntityFrameworkCoreModule)
+    typeof(BlobStoringDatabaseEntityFrameworkCoreModule),
+    typeof(thingmodelEntityFrameworkCoreModule)
     )]
 public class ttshangEntityFrameworkCoreModule : AbpModule
 {
