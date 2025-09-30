@@ -16,19 +16,19 @@
       "creationTime": "09/30/2025 13:54:51 +00:00"
     },
     "Volo.Abp.Identity": {
-      "version": "9.3.4",
       "isInstalled": true,
-      "creationTime": "09/30/2025 13:54:51 +00:00"
+      "creationTime": "09/30/2025 13:54:51 +00:00",
+      "path": "modules/Volo.Abp.Identity/Volo.Abp.Identity.abpmdl"
     },
     "Volo.Abp.TenantManagement": {
-      "version": "9.3.4",
       "isInstalled": true,
-      "creationTime": "09/30/2025 13:54:51 +00:00"
+      "creationTime": "09/30/2025 13:54:51 +00:00",
+      "path": "modules/Volo.Abp.TenantManagement/Volo.Abp.TenantManagement.abpmdl"
     },
     "Volo.Abp.SettingManagement": {
-      "version": "9.3.4",
       "isInstalled": true,
-      "creationTime": "09/30/2025 13:54:51 +00:00"
+      "creationTime": "09/30/2025 13:54:51 +00:00",
+      "path": "modules/Volo.Abp.SettingManagement/Volo.Abp.SettingManagement.abpmdl"
     },
     "Volo.Abp.PermissionManagement": {
       "version": "9.3.4",
@@ -36,9 +36,9 @@
       "creationTime": "09/30/2025 13:54:51 +00:00"
     },
     "Volo.Abp.FeatureManagement": {
-      "version": "9.3.4",
       "isInstalled": true,
-      "creationTime": "09/30/2025 13:54:51 +00:00"
+      "creationTime": "09/30/2025 13:54:51 +00:00",
+      "path": "modules/Volo.Abp.FeatureManagement/Volo.Abp.FeatureManagement.abpmdl"
     }
   },
   "folders": {

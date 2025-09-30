@@ -13,6 +13,18 @@
     },
     "ttshang.thingmodel": {
       "path": "modules/ttshang.thingmodel/ttshang.thingmodel.abpmdl"
+    },
+    "Volo.Abp.TenantManagement": {
+      "path": "modules/Volo.Abp.TenantManagement/Volo.Abp.TenantManagement.abpmdl"
+    },
+    "Volo.Abp.SettingManagement": {
+      "path": "modules/Volo.Abp.SettingManagement/Volo.Abp.SettingManagement.abpmdl"
+    },
+    "Volo.Abp.Identity": {
+      "path": "modules/Volo.Abp.Identity/Volo.Abp.Identity.abpmdl"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "path": "modules/Volo.Abp.FeatureManagement/Volo.Abp.FeatureManagement.abpmdl"
     }
   },
   "runProfiles": {
