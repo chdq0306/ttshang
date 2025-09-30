@@ -1,0 +1,28 @@
+﻿{
+  "applications": {
+    "ttshang.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44356",
+      "path": "../../../src/ttshang.HttpApi.Host/ttshang.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 4
+      }
+    },
+    "ttshang.Blazor": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44380",
+      "path": "../../../src/ttshang.Blazor/ttshang.Blazor.csproj",
+      "healthCheckEndpoint": "/",
+      "kubernetesService": ".*-blazor$",
+      "execution": {
+        "order": 2
+      }
+    }
+  },
+  "containers": {
+    "serviceName": "ttshang-Containers",
+  }
+}
